@@ -1,0 +1,100 @@
+/* Style untuk container form */
+.form-container {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+body{
+  background-image: url('scar.png'); background-size: cover;
+}
+/* Style untuk header form */
+.form-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-header h1 {
+  font-size: 28px;
+  
+  color: #4792ba;
+}
+
+/* Style untuk label form */
+.form-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Style untuk input form */
+.form-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Style untuk select form */
+.form-select {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Style untuk checkbox dan radio form */
+.form-checkbox-group {
+  margin-bottom: 20px;
+}
+
+.form-checkbox-label {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-checkbox-label .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-checkbox-label:hover .checkmark {
+  background-color: #ccc;
+}
+
+.form-radio {
+  display: none;
+}
+
+.form-radio:checked + .form-checkbox-label .checkmark {
+  background-color: #ccc;
+}
+
+/* Style untuk tombol submit form */
+.form-submit {
+  background-color: #4ca3af;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #3e8e66;
+}

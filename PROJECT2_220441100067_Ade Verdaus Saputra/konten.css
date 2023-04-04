@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('konten.webp'); background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: burlywood;
+}
+table { 
+  position: fixed; 
+  text-decoration: none;
+  color: antiquewhite;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: lightseagreen;
+  color: white;
+}

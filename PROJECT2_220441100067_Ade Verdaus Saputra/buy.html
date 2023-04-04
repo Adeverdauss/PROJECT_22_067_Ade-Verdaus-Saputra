@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Pemesanan Barang</title>
+  <link rel="stylesheet" type="text/css" href="buy.css">
+</head>
+<body>
+  <div class="form-container">
+    <div class="form-header">
+      <h1>Formulir Pemesanan Barang</h1>
+    </div>
+    <form>
+      <label class="form-label" for="nama">Nama Lengkap</label>
+      <input class="form-input" type="text" id="nama" name="nama">
+
+      <label class="form-label" for="email">Email</label>
+      <input class="form-input" type="email" id="email" name="email">
+
+      <label class="form-label" for="alamat">Alamat</label>
+      <input class="form-input" type="alamat" id="alamat" name="alamat">
+
+      <label class="form-label" for="barang">Barang yang Dipesan</label>
+      <select class="form-select" id="barang" name="barang">
+        <option value="buku">Buku</option>
+        <option value="alat-musik">Alat Musik</option>
+        <option value="vcd-dvd-blu-ray">VCD/DVD/Blu-ray</option>
+        <option value="komputer">Komputer</option>
+      </select>
+
+      <div class="form-checkbox-group">
+        <label for="jumlah">Jumlah Barang:</label>
+        <input type="number" id="jumlah" name="jumlah" min="1" max="10"><br>
+      </div>
+
+      <label class="form-label" for="pengiriman">Metode Pengiriman</label>
+      <select class="form-select" id="pengiriman" name="pengiriman">
+        <option value="standar">Standar</option>
+        <option value="cepat">Cepat</option>
+      </select>
+
+      <div class="form-label">Pilih Warna</div>
+      <div class="form-checkbox-group">
+        <input class="form-checkbox" type="checkbox" id="warna1" name="warna[]" value="merah">
+        <label class="form-checkbox-label" for="warna1"><span class="checkmark"></span>Merah</label>
+
+        <input class="form-checkbox" type="checkbox" id="warna2" name="warna[]" value="biru">
+        <label class="form-checkbox-label" for="warna2"><span class="checkmark"></span>Biru</label>
+
+        <input class="form-checkbox" type="checkbox" id="warna3" name="warna[]" value="hijau">
+        <label class="form-checkbox-label" for="warna3"><span class="checkmark"></span>Hijau</label>
+      </div>
+
+      <button type="submit" class="form-submit">Pesan Sekarang</button>
+    </form>
+ 

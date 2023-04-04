@@ -1,0 +1,42 @@
+.kontak {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+body{
+  background-image: url('gui.png'); background-size: cover;
+}
+.kontak h1 {
+  font-size: 36px;
+  color: aquamarine;
+}
+.kontak p {
+  color: aquamarine;
+}
+.kontak ul {
+  list-style: none;
+  padding: 0;
+}
+
+.kontak ul li {
+  margin: 20px 0;
+  line-height: 1.5;
+  color: cyan;
+}
+
+.kontak ul li i {
+  margin-right: 10px;
+}
+
+.kontak ul li i.fa-facebook {
+  color: #1877f2;
+}
+
+.kontak ul li i.fa-twitter {
+  color: #1da1f2;
+}
+
+.kontak ul li i.fa-instagram {
+  color: #c32aa3;
+}
